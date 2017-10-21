@@ -3,23 +3,33 @@
 
 //@import "reset";
 
-
-
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
+  font-size: 1.1em;
+  box-sizing: border-box;
 }
 
 section {
   text-align: center;
-  padding: 3em .5em;
+  padding: 2rem .25rem;
+}
+
+wrapper {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 2.5rem;
 }
 h2 {
-  font-size: 3em;
+  font-size: 1.5rem;
+}
+p {
+  line-height: 1.4em;
 }
 
 img {
@@ -27,18 +37,22 @@ img {
 }
 
 .signup {
-  background: red;
-  padding: 1em 2em;
+  background: orange;
+  padding: 1rem 2rem;
   color: white;
   font-weight: 600;
   display: inline-block;
-  font-size: 2em;
+  font-size: 1.2rem;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 400px;
 }
 
 .top {
-  background: linear-gradient(180deg, #56CCF2 0%, rgba(187, 107, 217, 0) 100%);
+  background: linear-gradient(180deg, #185A9D 0%, #43CEA2 40.61%, rgba(67, 206, 162, 0) 73.5%);
+  color: white;
+  padding-top: 1rem;
 }
 
 .twitter-tweet-rendered {
