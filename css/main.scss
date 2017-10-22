@@ -36,7 +36,7 @@ img {
   max-width: 100%;
 }
 
-.signup {
+.button {
   background: orange;
   padding: 1rem 2rem;
   color: white;
@@ -47,6 +47,14 @@ img {
   border-radius: 4px;
   width: 80%;
   max-width: 400px;
+  &.signup {
+
+  }
+  &.contact {
+    background: none;
+    border: 2px solid orange;
+    color: orange;
+  }
 }
 
 .top {

@@ -12,7 +12,8 @@ p { line-height: 1.4em; }
 
 img { max-width: 100%; }
 
-.signup { background: orange; padding: 1rem 2rem; color: white; font-weight: 600; display: inline-block; font-size: 1.2rem; text-decoration: none; border-radius: 4px; width: 80%; max-width: 400px; }
+.button { background: orange; padding: 1rem 2rem; color: white; font-weight: 600; display: inline-block; font-size: 1.2rem; text-decoration: none; border-radius: 4px; width: 80%; max-width: 400px; }
+.button.contact { background: none; border: 2px solid orange; color: orange; }
 
 .top { background: linear-gradient(180deg, #185A9D 0%, #43CEA2 40.61%, rgba(67, 206, 162, 0) 73.5%); color: white; padding-top: 1rem; }
 
