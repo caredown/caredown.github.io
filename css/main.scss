@@ -26,7 +26,7 @@ h1 {
   font-size: 2.5rem;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 p {
   line-height: 1.4em;
@@ -65,4 +65,28 @@ img {
 
 .twitter-tweet-rendered {
   margin: 10px auto;
+}
+
+.tools {
+  img {
+    width: 70%;
+    margin-bottom: 2.5em;
+  }
+  h2 {
+    margin-bottom: 2em;
+  }
+  h3 {
+    margin: 0;
+  }
+  p {
+    width: 90%;
+    margin: .2em auto 0 auto;
+  }
+}
+
+.environment {
+  img {
+    width: 110%;
+    margin: 0 auto;
+  }
 }
