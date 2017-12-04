@@ -41,7 +41,7 @@
         <h1>Your app,<br>for your health brand</h1>
         <p>Help your users track their health with a branded app for practitioners, health coaches, and more.</p>
         <img src="hero.png" alt="">
-        <a href="https://goo.gl/forms/L4eGEN1N9jpRDaeA3" class="button signup" onclick="ga('send', 'event', 'CTA', 'click', 'Request trial');fbq('track', 'Lead');">Start free trial</a>
+        <a href="https://goo.gl/forms/L4eGEN1N9jpRDaeA3" id="heroCTA" class="button signup" onclick="ga('send', 'event', 'CTA', 'click', 'Request trial');">Start free trial</a>
       </wrapper>
     </section>
     <section class="tools">
@@ -89,19 +89,38 @@
       <wrapper>
         <h2>Start your app today</h2>
         <p>Your branded app starts at <b>$59.99</b>/mo after a one month trial.</p>
-        <a href="https://goo.gl/forms/L4eGEN1N9jpRDaeA3" class="button signup" onclick="ga('send', 'event', 'CTA', 'click', 'Request trial');fbq('track', 'Lead');">Start free trial</a>
+        <a href="https://goo.gl/forms/L4eGEN1N9jpRDaeA3" class="button signup" onclick="ga('send', 'event', 'CTA', 'click', 'Request trial');">Start free trial</a>
       </wrapper>
     </section>
     <section>
       <wrapper>
         <h2>Get in touch</h2>
         <p>We're always happy to chat or answer questions.</p>
-        <a href="mailto:caredownapp@gmail.com" class="button contact">Email Logan at Caredown</a>
+        <a href="mailto:caredownapp@gmail.com" id="bottomCTA" class="button contact">Email Logan at Caredown</a>
       </wrapper>
     </section>
     <!-- <section class="easy">
       <h2>Let us do all the work</h2>
       <p>Developing, maintaining, and hosting an app is expensive and time consuming. Let us deal with all of that for you.</p>
     </section> -->
+    <script type="text/javascript">
+    var heroButton = document.getElementById('heroCTA');
+    heroButton.addEventListener(
+      'click',
+      function() {
+        fbq('track', 'Lead');
+      },
+      false
+    );
+
+    var bottomButton = document.getElementById('heroCTA');
+    bottomButton.addEventListener(
+      'click',
+      function() {
+        fbq('track', 'Lead');
+      },
+      false
+    );
+  </script>
   </body>
 </html>
