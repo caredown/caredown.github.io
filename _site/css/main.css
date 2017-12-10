@@ -1,4 +1,6 @@
-body { font-family: 'Roboto', sans-serif; margin: 0; font-size: 1.1em; box-sizing: border-box; }
+* { box-sizing: border-box; }
+
+body { font-family: 'Roboto', sans-serif; margin: 0; font-size: 1.1em; }
 
 section { text-align: center; padding: 2rem .25rem; }
 
@@ -6,9 +8,9 @@ wrapper { width: 100%; max-width: 500px; display: block; margin: 0 auto; }
 
 h1 { font-size: 2.5rem; }
 
-h2 { font-size: 1.75rem; }
+h2 { font-size: 1.75rem; margin-bottom: 0.5rem; }
 
-p { line-height: 1.4em; }
+p { line-height: 1.4em; max-width: 95%; margin-left: auto; margin-right: auto; }
 
 img { max-width: 100%; }
 
@@ -19,9 +21,9 @@ img { max-width: 100%; }
 
 .twitter-tweet-rendered { margin: 10px auto; }
 
-.tools img { width: 70%; margin-bottom: 2.5em; }
-.tools h2 { margin-bottom: 2em; }
-.tools h3 { margin: 0; }
-.tools p { width: 90%; margin: .2em auto 0 auto; }
-
-.environment img { width: 110%; margin: 0 auto; }
+.trackable { width: 100%; padding: 1em; border: 1px solid #efefef; border-radius: 4px; text-align: left; margin-bottom: .5em; box-shadow: 0 2px 0 #efefef; }
+.trackable > * { vertical-align: middle; }
+.trackable .text { display: inline-block; width: 85%; }
+.trackable h3 { margin: 0; }
+.trackable p { margin: 0; }
+.trackable img { width: 30px; height: 30px; margin-right: .5em; }

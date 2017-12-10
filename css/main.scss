@@ -3,11 +3,14 @@
 
 //@import "reset";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 1.1em;
-  box-sizing: border-box;
 }
 
 section {
@@ -27,9 +30,13 @@ h1 {
 }
 h2 {
   font-size: 1.75rem;
+  margin-bottom: 0.5rem;
 }
 p {
   line-height: 1.4em;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -67,26 +74,46 @@ img {
   margin: 10px auto;
 }
 
-.tools {
-  img {
-    width: 70%;
-    margin-bottom: 2.5em;
+.trackable {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  text-align: left;
+  margin-bottom: .5em;
+  box-shadow: 0 2px 0 #efefef;
+  &>* {
+    vertical-align: middle;
   }
-  h2 {
-    margin-bottom: 2em;
+  .text {
+    display: inline-block;
+    width: 85%;
   }
   h3 {
     margin: 0;
   }
   p {
-    width: 90%;
-    margin: .2em auto 0 auto;
+    margin: 0;
   }
-}
-
-.environment {
   img {
-    width: 110%;
-    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    margin-right: .5em;
   }
 }
+// .tools {
+//   img {
+//     width: 70%;
+//     margin-bottom: 2.5em;
+//   }
+//   h2 {
+//     margin-bottom: 2em;
+//   }
+//   h3 {
+//     margin: 0;
+//   }
+//   p {
+//     width: 90%;
+//     margin: .2em auto 0 auto;
+//   }
+// }
